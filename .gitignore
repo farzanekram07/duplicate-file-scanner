@@ -1,0 +1,16 @@
+# Scan outputs (contain real file paths - never commit)
+*.csv
+ScanResults/
+inventory_master.csv
+duplicates_report.csv
+errors.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editors
+.idea/
+.vscode/
